@@ -1,0 +1,20 @@
+JS IV Sprint Questions:
+1)	Describe the biggest difference between .forEach & .map.
+    a)	.forEach allows you to edit an existing array and invoke functions for each item listed in the array.
+    b)	.map creates a whole new array and calls functions on items within the new array.
+	
+2)	What is the difference between a function and a method?
+    a)	A function is and object that can be created inside or outside other objects.
+    b)	A method is a property that belongs to an object. They provide functions with the ability to make things happen.
+
+3)	What is closure?
+    a)	An inner function with 3 scope chains. It has access to variables belonging to outer functions, global variables, and variables defined within its curly brackets. Basically it provides child functions access to the parent attributes in nested functions using inheritance.
+
+4)	Describe the four rules of the 'this' keyword.
+    a)	Global/Window (aka Default) Binding – occurs when you use ‘this’ to invoke the function. Is the global scope and uses the window object.
+    b)	New Binding – occurs in constructor functions when new objects are created.
+    c)	Implicit Binding – occurs when the function is invoked by dot notation
+    d)	Explicit Binding – occurs when a function uses call(), .apply(), or .bind()
+
+5)	Why do we need super() in an extended class?
+    a)	Super creates the inheritance of Parent attributes to the child. This also helps to create cleaner code.
