@@ -38,12 +38,12 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 // Explain in your own words why nestedfunction can access the variable internal.
 
 // Explanation: 
-    /*The variable "internal" is within the nestedFunction's scope. It can access
+    /*-- The variable "internal" is within the nestedFunction's scope. It can access
     the variable since we are telling the function to call the variable. Closures are inner
     functions that can access outer functions, global functions, and functions that
     are within their own curly brackets, or scope. So because the variable "internal"
     is withing the nestedFunction's scope, and nestedFunction is able to look 'up' the
-    scope's chain just not down it, nestedFunction is able to access the selected variable*/
+    scope's chain just not down it, nestedFunction is able to access the selected variable--*/
 
 const external = "I'm outside the function";
 
